@@ -8,6 +8,7 @@ import static org.example.Extractor.extractFiles;
 
 public class Main {
     public static void main(String[] args) {
+        ////
         String jobDbPath = "C:\\Users\\Amir Offir\\Desktop\\jobDb";
         String specificJobPath = "\\1\\1.1"; // Set to null if not needed
         Map<String, List<File>> folderFilesMap = extractFiles(jobDbPath, specificJobPath);
